@@ -1,21 +1,20 @@
 :root{
-	background-color: hsl(207, 95%, 16%);
-
-
+	background: rgb(0, 0, 0);
+	
 }
 
 img {
-	max-width: auto;
+	max-width: 100%;
 }
-
+       /* Rodape */        
 .one {
-	width: auto;
-	height: auto;
-	background: hsl(0, 0%, 100%);
+	width: 100%;
+	height: 5px;
+	background: rgb(255, 255, 255);
 }
 .header {
 	width:100%;
-	background:hsl(207, 95%, 16%);
+	background:hsl(0, 0%, 0%);
 	padding:25px;
 }
 
@@ -25,8 +24,8 @@ img {
 
 .topo ul li {
 	display:inline-block;
-	margin-left:auto;
-	margin-top:auto;
+	margin-left:30px;
+	margin-top:40px;
 }
 
 .topo ul li a {
@@ -35,20 +34,20 @@ img {
 	font-weight:bold;
 	color:#FFF;
 	text-transform:uppercase;
-	line-height:auto;
+	line-height:15px;
 }
 
 .topo ul li a:hover {
-	color: yellow;
+	color: #000000;
 }
 
 
 /* Banner */
 
 .banner {
-	width:auto;
-	height:auto;
-	background:url(../img/banner.png) no-repeat center;
+	width:100%;
+	height:400px;
+	background:url(../img/banner.jpg) no-repeat center;
 	background-size:cover;
 	text-align:center;
 }
@@ -64,24 +63,10 @@ img {
 	margin-bottom: 50px;
 }
 
-.banner a {
-	text-transform: uppercase;
-	font-weight: bold;
-	padding: auto;
-	font-size: 20px;
-	width: 50px;
-	color: white;
-	background: red;
-	border-radius: 10px;
-	box-shadow: black 2px 2px 10px;
-}
 
-.banner a:hover {
-	background: yellow;
-	color: black;
-	transition: all 0.3s;
-	box-shadow: black 2px 2px 10px;
-}
+
+
+
 
 /* Combos de Petiscos */
 
@@ -90,14 +75,14 @@ img {
 	font-family: Oswald;
 	font-size: 45px;
 	text-align: center;
-	color: hsl(0, 0%, 99%);
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 }
 
 .petiscos p {
 	font-family: Lato;
 	font-size: 24px;
-	color: hsl(0, 0%, 100%);
+	color: #f7f7f7;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -129,14 +114,14 @@ img {
 }
 
 .combo h3 {
-	background: hsla(239, 76%, 50%, 0.658);
+	background: hsl(0, 0%, 0%);
 	color: white;
 	font-weight: bold;
 }
 
 .combo p{
 	font-family: Lato;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 30px;
 	margin-bottom: 20px;
 	color: black;
@@ -146,17 +131,17 @@ img {
 }
 
 .combo h4 a {
-	background-color: rgba(53, 139, 238, 0.897);
-	padding: 10px;
+	background-color: #000000;
+	padding: 50px;
 	color: white;
-	font-family: Oswald;
-	line-height: 65px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150px;
 }
 
 .combo h4 a:hover {
-	background-color: #00ff0d;
+	background-color: #ccd4d4;
 	color: white;
-	
+	transition: 0.8 all;
 }
 
 /* Pirão */ 
@@ -166,14 +151,14 @@ img {
 	font-family: Oswald;
 	font-size: 45px;
 	text-align: center;
-	color: rgb(243, 243, 243);
+	color: red;
 	text-transform: uppercase;
 }
 
 .pirao p {
 	font-family: Lato;
 	font-size: 24px;
-	color: #ffffff;
+	color: #f2e41b;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -189,58 +174,27 @@ img {
 	font-family: Oswald;
 	font-size: 40px;
 	text-align: center;
-	color: rgb(235, 235, 235);
+	color: red;
 	text-transform: uppercase;
 }
 
 .slide p {
 	font-family: Lato;
 	font-size: 24px;
-	color: #fcfcfc;
+	color: #000000;
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 70px;
 }
 
-/* Localizacão */
 
-.localizacao h2 {
-	margin-top: 75px;
-	font-family: Oswald;
-	font-size: 45px;
-	text-align: center;
-	color: rgb(240, 240, 240);
-	text-transform: uppercase;
-}
-
-.localizacao p {
-	font-family: Lato;
-	font-size: 24px;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.localizacao2 {
-	margin-top: 100px;
-	width: 100%;
-	height: 400px;
-	text-align: center;
-	margin-bottom: 100px;
-}
-
-.localizacao {
-	text-align: center;
-	margin-bottom: 50px;
-	
-}
 
 /* Rodapé */
 
 .footer {
 	width: 100%;
 	height: 60px;
-	background: rgb(0, 0, 0);
+	background: #000000;
 }
 
 .footer h3 {
@@ -253,50 +207,24 @@ img {
 
 /* Slide */
 
-
-
-.itens {
-	border-radius: 50px;
-	
-	margin-top: 75px;
-	font-family: Oswald;
-	font-size: 45px;
-	text-align: center;
-	color: hsl(221, 84%, 32%);
-	text-transform: uppercase;
-
-	
-	
-	
-	
-
-
-
+.slide {
+	width: 100%;
 }
 
+.itens {
+	display: flex;
+	overflow-x: auto;
+}
 
+.itens img {
+	width: 100%;
+	height: 100%;
+	margin-left: 50px;
+}
 
 .slide {
 	flex: none;
 }
 
-/* Scroll */
 
-::-webkit-scrollbar
-::-webkit-scrollbar-button
-::-webkit-scrollbar-track
-::-webkit-scrollbar-track-piece
-::-webkit-scrollbar-thumb
-::-webkit-scrollbar-corner
-::-webkit-resizer 
 
-::-webkit-scrollbar-track {
-    background-color: black;
-}
-::-webkit-scrollbar {
-    width: 4px;
-    background: rgb(255, 255, 255);
-}
-::-webkit-scrollbar-thumb {
-    background: hsl(0, 0%, 100%)b;
-}
