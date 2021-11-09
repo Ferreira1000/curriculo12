@@ -198,11 +198,12 @@ img {
 }
 
 .footer h3 {
-	font-family: Lato;
-	font-size: 20px;
+	display: block;
 	color: white;
 	text-align: center;
 	line-height: 50px;
+	text-decoration: none
+	 
 }
 
 /* Slide */
