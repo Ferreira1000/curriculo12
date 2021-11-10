@@ -88,7 +88,12 @@ img {
 }
 
 .combo {
-	margin-top: 75px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+    height: 30%;
+
 }
 
 .combo li {
@@ -139,53 +144,17 @@ img {
 }
 
 .combo h4 a:hover {
-	background-color: #ccd4d4;
+	background-color: hsl(0, 0%, 0%);
 	color: white;
 	transition: 0.8 all;
 }
 
 /* Pirão */ 
 
-.pirao h2 {
-	margin-top: 75px;
-	font-family: Oswald;
-	font-size: 45px;
-	text-align: center;
-	color: red;
-	text-transform: uppercase;
-}
 
-.pirao p {
-	font-family: Lato;
-	font-size: 24px;
-	color: #f2e41b;
-	text-transform: uppercase;
-	text-align: center;
-}
 
-/* Cerveja, Refrigerante e Energéticos */ 
 
-.slide {
-	margin-top: 20px;
-}
 
-.slide h3 {
-	margin-top: 75px;
-	font-family: Oswald;
-	font-size: 40px;
-	text-align: center;
-	color: red;
-	text-transform: uppercase;
-}
-
-.slide p {
-	font-family: Lato;
-	font-size: 24px;
-	color: #000000;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 70px;
-}
 
 
 
@@ -206,26 +175,38 @@ img {
 	 
 }
 
-/* Slide */
 
-.slide {
-	width: 100%;
-}
 
-.itens {
-	display: flex;
-	overflow-x: auto;
-}
+/* estrutura app          */
 
-.itens img {
-	width: 100%;
-	height: 100%;
-	margin-left: 50px;
-}
+.compra{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 100%;
+text-align: center;
 
-.slide {
-	flex: none;
 }
 
 
+
+
+.logo{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 50%;
+text-align: center;
+
+}
+
+.app-1{
+margin-left: -20%;
+margin-right: auto;
+width: 100%;
+height: 100%;
+text-align: center;
+
+
+}
 
